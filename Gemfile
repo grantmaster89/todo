@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rake', '< 11.p'
+gem 'rubocop-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -54,6 +55,7 @@ end
 
 group :test do
   gem 'capybara', '~> 2.7', '>= 2.7.1'
+  gem "database_cleaner"
 end
 
 
