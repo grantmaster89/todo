@@ -53,7 +53,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '~> 2.3.0'
+  gem 'capybara', '~> 2.7', '>= 2.7.1'
 end
 
 
