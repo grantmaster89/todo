@@ -24,7 +24,7 @@ describe Todo, '#completed?' do
   end
 
   describe Todo, "#mark_incomplete!" do
-    it 'Set completed_at to nil' do
+    it 'Sets completed_at to nil' do
       todo = Todo.create!(completed_at: Time.current)
 
       todo.mark_incomplete!
